@@ -1,0 +1,14 @@
+#include <iostream>
+#include <algorithm> 
+using namespace std;
+
+int main (){
+    int cnt =0;
+    string s, t;
+    cin >> s >> t;
+
+    sort(s.begin(), s.end());
+    sort(t.begin(), t.end());
+
+    cout << ((s==t) ? "YES" : "NO");
+}    
